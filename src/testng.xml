@@ -5,7 +5,7 @@
 
     <test thread-count="1" parallel="false" name="Combi Test">
         <parameter name="url" value="http://localhost:8080/objectundertest-4.10.1/symfony/web/index.php/recruitment/viewCandidates"/>
-        <parameter name="remoteUrl" value="http://192.168.56.1:4444/"/>
+        <parameter name="remoteUrl" value="http://192.168.56.1:4444/"/><!--Selenium Remote Web Driver Url-->
         <parameter name ="inputCombiDataFilePath" value="C:\\Users\\Yura\IdeaProjects\\MenuListCombiTest\\generatedCombiTestData.csv"/>
         <parameter name="initialTimeout(sec)" value="25"/>
         <parameter name="increaseTimeoutDeltaPer(sec)" value="3"/>
